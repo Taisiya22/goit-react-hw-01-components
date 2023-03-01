@@ -22,7 +22,7 @@ export function Profile ({ username, tag, location, avatar, stats }) {
     </li>
     <li>
       <span className="label">Views</span>
-            <span class="quantity">{stats.views}</span>
+            <span className="quantity">{stats.views}</span>
     </li>
     <li>
       <span className="label">Likes</span>
@@ -33,13 +33,13 @@ export function Profile ({ username, tag, location, avatar, stats }) {
     )
 }
 
-Profile.propTypes = {
-  username: PropTypes.string.isRequired,
-  tag: PropTypes.string.isRequired,
-  location: PropTypes.string.isRequired,
-  avatar: PropTypes.string.isRequired,
-  followers: PropTypes.number.isRequired,
-  views: PropTypes.number.isRequired,
-  likes: PropTypes.number.isRequired,
-};
+// Profile.propTypes = {
+//   username: PropTypes.string.isRequired,
+//   tag: PropTypes.string.isRequired,
+//   location: PropTypes.string.isRequired,
+//   avatar: PropTypes.string.isRequired,
+//   followers: PropTypes.number.isRequired,
+//   views: PropTypes.number.isRequired,
+//   likes: PropTypes.number.isRequired,
+// };
 
