@@ -15,8 +15,8 @@
 //   );
 // };
 
-import { Profile } from './Profile/Profile.jsx'
-import { Statistics } from './Statistic/Statistic.jsx'
+import { Profile } from '../components/Profile/Profile'
+import { Statistics } from '../components/Statistic/Statistic'
 import user from 'json/user.json'
 import data from 'json/data.json'
 
