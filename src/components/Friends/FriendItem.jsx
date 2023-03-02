@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 export function FriendItem({ friends: { avatar, name, isOnline } }) { 
     return (
        <div> 
@@ -7,5 +8,14 @@ export function FriendItem({ friends: { avatar, name, isOnline } }) {
                 <p className="name">{name}</p>
 </li>
       </div> 
+    )
+}
+
+FriendItem.propTypes = {
+    friends: PropTypes.shape(
+        { avatar: PropTypes.string.isRequired,
+          name: PropTypes.string.isRequired,
+          isOnline: PropTypes.bool.isRequired,
+        }
     )
 }
