@@ -1,5 +1,5 @@
 
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
  
 export function Profile ({ username, tag, location, avatar, stats }) { 
     return (
