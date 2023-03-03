@@ -1,0 +1,41 @@
+.statistic {
+     margin-right: auto;
+     margin-left: auto;
+     width: 400px;
+     background-color: rgb(198, 215, 215);
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    color: gray;
+}
+
+.statslist {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.item {
+   width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 15px;
+        border: 1px solid rgb(114, 109, 109);
+        background-color:lightskyblue; 
+        color: yellow;  
+}
+
+.item:nth-child(even) {
+    background-color: yellow;
+    color: lightskyblue;
+}
+
+.percentage {
+    font-size: larger;
+    font-weight: bolder;
+}

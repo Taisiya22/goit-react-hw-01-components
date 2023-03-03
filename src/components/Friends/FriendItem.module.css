@@ -1,0 +1,33 @@
+.status{
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.status.green {
+    margin-left: 10px;
+    background-color: green;
+}
+
+.status.red {
+ margin-left: 10px;
+  background-color: red;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar{
+    width: 70px;
+}
+
+.name {
+    font-size: large;
+    font-weight: bold;
+    color: gray;
+}
