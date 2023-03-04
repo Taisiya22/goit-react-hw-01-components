@@ -25,7 +25,7 @@ import friends from 'json/friends.json'
 import transaction from 'json/transaction.json'
 export function App() { 
   return (
-    <div>
+    <>
     <Profile
   username={user.username}
   tag={user.tag}
@@ -36,6 +36,6 @@ export function App() {
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transaction} />;
-</div>
+</>
   )
 }

@@ -23,9 +23,13 @@
 }
 
 .avatar{
+    display: block;
     width: 70px;
+    transition: transform 600ms ease-out;
 }
-
+.avatar:hover {
+    transform: scale(1.2);
+}
 .name {
     font-size: large;
     font-weight: bold;

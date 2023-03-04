@@ -18,6 +18,7 @@ th {
     padding-bottom: 15px;
 }
 
+
 td { 
     color: grey;
    padding-bottom: 8px; 
@@ -25,4 +26,12 @@ td {
 
 tr:nth-child(even) {
     background-color:rgb(234, 234, 108);
+}
+
+tr:nth-child(even):hover{
+background-color: lightskyblue;
+}
+
+tr:hover {
+background-color: lightskyblue;
 }

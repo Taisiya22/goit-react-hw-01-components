@@ -27,9 +27,13 @@
         padding: 15px;
         border: 1px solid rgb(114, 109, 109);
         background-color:lightskyblue; 
-        color: yellow;  
+        color: yellow; 
+        transition: transform 600ms ease-out;
+        
 }
-
+.item:hover {
+ transform: scale(1.2);   
+}
 .item:nth-child(even) {
     background-color: yellow;
     color: lightskyblue;
