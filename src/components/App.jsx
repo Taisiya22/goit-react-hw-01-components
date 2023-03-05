@@ -1,19 +1,4 @@
-// export const App = () => {
-//   return (
-//     <div
-//       style={{
-//         height: '100vh',
-//         display: 'flex',
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         fontSize: 40,
-//         color: '#010101'
-//       }}
-//     >
-//       React homework template
-//     </div>
-//   );
-// };
+
 
 import { Profile } from '../components/Profile/Profile'
 import { Statistics } from '../components/Statistic/Statistic'
@@ -23,9 +8,17 @@ import user from 'json/user.json'
 import data from 'json/data.json'
 import friends from 'json/friends.json'
 import transaction from 'json/transaction.json'
+import {Helmet} from "react-helmet";
 export function App() { 
   return (
     <>
+   
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Account</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="Testing icons and title" />
+            </Helmet>
     <Profile
   username={user.username}
   tag={user.tag}
