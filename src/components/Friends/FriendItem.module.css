@@ -1,17 +1,19 @@
-.status {
+.online {
   display: flex;
   align-items: center;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-}
-
-.status.green {
   margin-left: 10px;
   background-color: green;
 }
 
-.status.red {
+.offline {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
   margin-left: 10px;
   background-color: red;
 }
